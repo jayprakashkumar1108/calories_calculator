@@ -1,0 +1,40 @@
+/* src/styles.css */
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  .home-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .calorie-section, .result-section {
+    width: 45%;
+  }
+  
+  form {
+    margin-top: 1rem;
+  }
+  
+  form div {
+    margin-bottom: 1rem;
+  }
+  
+  .result-section {
+    border-left: 1px solid #ddd;
+    padding-left: 1rem;
+  }
+  
